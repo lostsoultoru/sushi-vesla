@@ -1,0 +1,82 @@
+.container-header{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    display: flex;
+    width: 80%;
+    margin: 0 auto; 
+    border-bottom: rgba(0, 0, 0, 0.1) solid 1px ;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-main-ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header-number-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-main-ul{
+    gap: 10px;
+}
+.header-number-div{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+
+}
+
+.header-user-div{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-search-div{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.3);
+    gap: 6px;
+    border-radius: 20px;
+    width: 280px;
+    height: 50px;
+    background: #e5e5e5;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left:16px ;
+    padding-right: 16px;
+}
+.header-phone-img{
+    height: 50px;
+    width: 50px;
+}
+
+.header-search-input{
+    width:210px ;
+}
+
+.header-main-li{
+    transition: all 1s;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-main-li:hover{
+    border-bottom: 1px solid red;
+}
+
+.header-main-logo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
