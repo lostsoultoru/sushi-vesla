@@ -20,7 +20,7 @@
     padding-left: 15px;
     outline: 1px solid #e31e24;
     border-radius: 10px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .main-basket-promo-button{
@@ -40,6 +40,7 @@
 }
 
 .main-basket-main{
+    width: 330px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.05), -10px -10px 10px 0 #f8f9fc;
@@ -119,7 +120,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 140px;
+    margin-left: 190px;
     margin-top: -25px;
 }
 
@@ -151,7 +152,8 @@
     color: #000;
 }
 
-.main-basket-button-end{
+.main-basket-button-dash,
+.main-basket-button-solo{
     border-radius: 10px;
     font-weight: 600;
     font-size: 14px;
@@ -163,7 +165,286 @@
     justify-content:center ;
     display: flex;
     gap: 5px;
-    padding-left: 74px;
-    padding-right: 74px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 15px;
+}
+.main-basket-buttons-div{
+    display: flex;
+    gap: 20px;
+}
+
+.main-basket-div-end{
+    padding-top: 5px;
+    margin-top: 10px;
+    border-top: rgba(0, 0, 0, 0.1) solid 2px;
+}
+
+.main-basket-souses-li{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-basket-souses-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-basket-souses-counter-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.main-basket-souses-img{
+    width: 45px;
+    height: 45px;
+}
+.main-basket-souses-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.main-basket-souses-title{
+    font-weight: 600;
+    font-size: 10px;
+    color: #000;
+}
+.main-basket-souses-price-h2{
+    font-weight: 600;
+    font-size: 12px;
+    text-align: right;
+    color: #000;
+}
+.main-basket-counter-minus,
+.main-basket-counter-plus,
+.main-basket-souses-counter-minus,
+.main-basket-souses-counter-plus{
+    border-radius: 5px;
+    background: #e31e24;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-basket-souses-h2{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+}
+
+.main-basket-souses-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+.main-basket-utensils-li{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-basket-utensils-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-basket-utensils-counter-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.main-basket-utensils-img{
+    width: 45px;
+    height: 45px;
+}
+.main-basket-utensils-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.main-basket-utensils-title{
+    font-weight: 600;
+    font-size: 10px;
+    color: #000;
+}
+.main-basket-utensils-price-h2{
+    font-weight: 600;
+    font-size: 12px;
+    text-align: right;
+    color: #000;
+}
+.main-post-counter-minus,
+.main-post-counter-plus,
+.main-basket-utensils-counter-minus,
+.main-basket-utensils-counter-plus{
+    border-radius: 5px;
+    background: #e31e24;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-basket-utensils-h2{
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+}
+
+.main-basket-utensils-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: rgba(0, 0, 0, 0.1) solid 2px;
+    border-bottom: rgba(0, 0, 0, 0.1) solid 2px;;
+}
+
+.main-content-ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    justify-content: center;
+    max-height: 200px; 
+    overflow: hidden;
+    transition: all 100ms;
+}
+
+.main-content-li{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.main-content-img{
+    width: 100px;
+    height: 100px;
+}
+
+.main-content-desc{
+    width: 100px;
+}
+
+.main-content-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.main-content-adv{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-content-title-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.main-podcontent-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.main-podcontent-li{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    width: 345px;
+}
+
+.main-podcontent-post-title{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+}
+
+.main-podcontent-post-desc-title{
+    font-weight: 500;
+    font-size: 10px;
+}
+.main-podcontent-post-title-bold{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.main-podcontent-post-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-post-counter-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-podcontent-post-img{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.main-podcontent-ul{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.main{
+    padding-bottom: 150px;
 }
